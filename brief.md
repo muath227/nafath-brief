@@ -16,11 +16,17 @@ App Transport Security (ATS) is an iOS security feature that requires secure net
 
 Resource: Preventing Insecure Network Connections - https://developer.apple.com/documentation/security/preventing-insecure-network-connections
 ## Networking
+IPv4 uses 32-bit addresses, while IPv6 uses 128-bit addresses. IPv4 addresses are usually written in decimal format, such as 192.168.1.1, whereas IPv6 addresses use hexadecimal notation, such as 2001:db8::1. The larger IPv6 address space supports the growing number of connected devices and reduces dependence on address-sharing techniques. For the government AI assistant, IPv6 support helps ensure that mobile users can access its services as networks continue to expand.
 
+Resource: RFC 8200 - Internet Protocol, Version 6 (IPv6) Specification - https://www.rfc-editor.org/rfc/rfc8200
 ## Cybersecurity
+Prompt injection is an attack where malicious instructions attempt to change an AI assistant's intended behavior. Direct prompt injection occurs when an attacker enters harmful instructions directly into the chat. Indirect prompt injection occurs when malicious instructions are hidden in external content, such as documents retrieved by the assistant. Two ways to reduce the risk are treating retrieved content as untrusted data and restricting the assistant's permissions. These measures help protect government services and sensitive information.
 
+Resource: OWASP LLM01:2025 Prompt Injection - https://genai.owasp.org/llmrisk/llm01-prompt-injection/
 ## Data
+Anonymization removes identifying information so that individuals are no longer identifiable using reasonably available means. Pseudonymization replaces personal identifiers with codes while keeping additional information that may allow re-identification. For government chat logs, anonymization can support privacy-preserving analysis, while pseudonymization can reduce exposure during processing. Under the GDPR, properly anonymized information falls outside the regulation's scope, but pseudonymized data remains personal data because individuals may still be identified.
 
+Resource: GDPR Recital 26 - https://gdpr-info.eu/recitals/no-26/
 ## Misconception in My Track
 
 ## Open Question
