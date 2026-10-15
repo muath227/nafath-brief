@@ -28,5 +28,6 @@ Anonymization removes identifying information so that individuals are no longer 
 
 Resource: GDPR Recital 26 - https://gdpr-info.eu/recitals/no-26/
 ## Misconception in My Track
-
+A common misconception is that IPv6 uses the same 32-bit address size as IPv4 and only changes how addresses are written. This is incorrect. IPv4 uses 32-bit addresses, while IPv6 uses 128-bit addresses, providing a much larger address space. This difference is important because the number of connected devices continues to increase, and IPv4 addresses are limited. RFC 8200, Section 2 (Terminology), confirms that IPv6 addresses are 128 bits long. Understanding this distinction helps network engineers plan scalable connectivity for government digital services.
 ## Open Question
+How can a government mobile application support both IPv4 and IPv6 networks while maintaining reliable access to its AI assistant during the transition to IPv6?
